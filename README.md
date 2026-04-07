@@ -8,7 +8,7 @@ A curated set of visually interesting rules cycles continuously, each starting f
 
 <video src="https://github.com/user-attachments/assets/a48a4aea-fc59-4fda-9d73-d48d0744ccde" controls width="480"></video>
 
-![Display close-up](arduino-ssd1351-ca-zoom.jpg)
+<img src="arduino-ssd1351-ca-zoom.jpg" width="480">
 
 ## Dependencies
 
