@@ -133,10 +133,11 @@ void updateRow(size_t j, uint8_t rule) {
   }
 }
 
-// Use direct SPI communication to draw the bitmap faster than Adafruit's library allows
-// See https://forums.adafruit.com/viewtopic.php?t=198726
+// Use direct SPI communication to draw the bitmap faster than Adafruit's
+// library allows (see https://forums.adafruit.com/viewtopic.php?t=198726)
 static inline __attribute__((always_inline))
-void fastDrawBitmap(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w, int16_t h, uint16_t fg, uint16_t bg) {
+void fastDrawBitmap(int16_t x, int16_t y, const uint8_t bitmap[], int16_t w,
+                    int16_t h, uint16_t fg, uint16_t bg) {
 
   // Set up the SPI transaction
   digitalWrite(TFT_CS, LOW);
