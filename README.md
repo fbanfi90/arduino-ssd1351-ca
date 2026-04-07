@@ -6,7 +6,7 @@ A curated set of visually interesting rules cycles continuously, each starting f
 
 ## Demo
 
-<video src="arduino-ssd1351-ca-demo.mp4" controls width="480"></video>
+[![Demo](arduino-ssd1351-ca-demo.mp4)](arduino-ssd1351-ca-demo.mp4)
 
 ![Display close-up](arduino-ssd1351-ca-zoom.jpg)
 
